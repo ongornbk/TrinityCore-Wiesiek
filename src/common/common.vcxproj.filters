@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Work\BUILDS\Wiesiek\src\common\CMakeFiles\common.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Banner.cpp" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Common.cpp" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\GitRevision.cpp" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\BoundingIntervalHierarchy.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\DynamicTree.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\MMapFactory.cpp">
+      <Filter>Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\MMapManager.cpp">
+      <Filter>Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\VMapFactory.cpp">
+      <Filter>Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\VMapManager2.cpp">
+      <Filter>Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps\MapTree.cpp">
+      <Filter>Collision\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps\TileAssembler.cpp">
+      <Filter>Collision\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models\GameObjectModel.cpp">
+      <Filter>Collision\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models\ModelInstance.cpp">
+      <Filter>Collision\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models\WorldModel.cpp">
+      <Filter>Collision\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Configuration\BuiltInConfig.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Configuration\Config.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\AES.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\ARC4.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Argon2.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\BigNumber.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\CryptoRandom.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\OpenSSLCrypto.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\TOTP.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication\AuthCrypt.cpp">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication\SRP6.cpp">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\DataStores\DBCFileLoader.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Encoding\Base32.cpp">
+      <Filter>Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Encoding\Base64.cpp">
+      <Filter>Encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\IPLocation\IPLocation.cpp">
+      <Filter>IPLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\Appender.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\AppenderConsole.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\AppenderFile.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\Log.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\LogMessage.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\LogOperation.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\Logger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\enuminfo_AppenderConsole.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\enuminfo_LogCommon.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Metric\Metric.cpp">
+      <Filter>Metric</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Threading\ProcessPriority.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\EventMap.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\EventProcessor.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Random.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\SFMTRand.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\StartProcess.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\TaskScheduler.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Util.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Debugging\Errors.cpp">
+      <Filter>Debugging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Banner.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Common.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\CompilerDefs.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Define.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\GitRevision.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Asio\AsioHacksFwd.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Asio\DeadlineTimer.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Asio\IoContext.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Asio\IpAddress.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Asio\IpNetwork.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Asio\Resolver.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Asio\Strand.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\BoundingIntervalHierarchy.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\BoundingIntervalHierarchyWrapper.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\DynamicTree.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\RegularGrid.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\VMapDefinitions.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\IVMapManager.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\MMapFactory.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\MMapManager.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\VMapFactory.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management\VMapManager2.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps\MapDefines.h">
+      <Filter>Collision\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps\MapTree.h">
+      <Filter>Collision\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps\TileAssembler.h">
+      <Filter>Collision\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models\GameObjectModel.h">
+      <Filter>Collision\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models\ModelIgnoreFlags.h">
+      <Filter>Collision\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models\ModelInstance.h">
+      <Filter>Collision\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models\WorldModel.h">
+      <Filter>Collision\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Configuration\BuiltInConfig.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Configuration\Config.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\AES.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\ARC4.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Argon2.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\BigNumber.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\CryptoConstants.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\CryptoGenerics.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\CryptoHash.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\CryptoRandom.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\HMAC.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\OpenSSLCrypto.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\SessionKeyGenerator.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\TOTP.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication\AuthCrypt.h">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication\AuthDefines.h">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication\SRP6.h">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\DataStores\DBCFileLoader.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Encoding\Base32.h">
+      <Filter>Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Encoding\Base64.h">
+      <Filter>Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Encoding\BaseEncoding.h">
+      <Filter>Encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Hacks\boost_1_73_process_windows_nopch.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Hacks\boost_1_74_fibonacci_heap.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\IPLocation\IPLocation.h">
+      <Filter>IPLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\Appender.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\AppenderConsole.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\AppenderFile.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\Log.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\LogCommon.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\LogMessage.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\LogOperation.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Logging\Logger.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Metric\Metric.h">
+      <Filter>Metric</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Threading\LockedQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Threading\MPSCQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Threading\ProcessPriority.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Threading\ProducerConsumerQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Threading\ThreadPool.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\AsyncCallbackProcessor.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\ByteConverter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Containers.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Duration.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\EnumFlag.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\EventMap.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\EventProcessor.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\FuzzyFind.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Hash.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\IteratorPair.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\MessageBuffer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Optional.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Random.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Regex.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\SFMTRand.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\SmartEnum.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\StartProcess.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\StringConvert.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\StringFormat.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\TaskScheduler.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Timer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Tuples.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Types.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\Util.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Utilities\advstd.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Debugging\Errors.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\common\CMakeFiles\common.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\common\CMakeFiles\common.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\common\CMakeFiles\common.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\common\CMakeFiles\common.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Wiesiek\TrinityCore\src\common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Asio">
+      <UniqueIdentifier>{6B18526E-F14F-3BB4-9D34-5F41D373B22B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{D1415FEC-5406-3F98-AB73-22A832392570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Management">
+      <UniqueIdentifier>{C410A9B1-BB25-3246-8A94-4788D0DA0CB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Maps">
+      <UniqueIdentifier>{B1796F9D-5EF6-3BAA-9B54-AA6945EB969B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Models">
+      <UniqueIdentifier>{D9A5A58E-AFC8-367B-A861-120C2F7DD772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{B7A81FD6-D960-30C8-90AF-2550C67B05DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography">
+      <UniqueIdentifier>{3A8ABEDB-F2A5-3E99-BCDC-E0E87FA2CBF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography\Authentication">
+      <UniqueIdentifier>{FA66B005-005E-3BEB-AF1E-A1C1B4EC279F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{D49570E7-4B29-3A94-A98F-2D0060B15D1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging">
+      <UniqueIdentifier>{55B5E0A2-1BD9-3998-84E6-A8F6E331F79E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encoding">
+      <UniqueIdentifier>{2A6BE492-580C-3B24-9B01-11ADEB958AE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{31583F5A-18AC-306A-90BA-5E7D20D34D70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPLocation">
+      <UniqueIdentifier>{72204199-628F-37A4-A8C0-BB496F4FF1D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{CBF739DF-9AC7-36E3-94A0-A9CA91FC65CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metric">
+      <UniqueIdentifier>{8389F178-E025-31B7-B162-49D94D11A787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F9C7B270-CEED-3F8A-81CF-15965F08313B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761F9133-09E9-3759-BC97-2A876F90AEAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{ED23AF27-EE10-30EA-9827-C9E005510879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{5F69DF2D-9865-33B1-9277-93957254E006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

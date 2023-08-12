@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\adtfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\dbcfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\gameobject_extract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\mpq_libmpq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\vmapexport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\wdtfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\wmo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\adtfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\dbcfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\modelheaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\mpq_libmpq04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\vec3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\vmapexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\wdtfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\wmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\loadlib\loadlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Wiesiek\TrinityCore\src\tools\vmap4_extractor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F5320C05-39C3-3F85-B307-83474D0B2635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761F9133-09E9-3759-BC97-2A876F90AEAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

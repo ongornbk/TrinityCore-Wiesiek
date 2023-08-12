@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-alti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params607.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params1279.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params2281.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params4253.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params11213.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params19937.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params44497.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params86243.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params132049.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-params216091.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-sse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\SFMT-sse2-msc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Wiesiek\TrinityCore\dep\SFMT\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F5320C05-39C3-3F85-B307-83474D0B2635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761F9133-09E9-3759-BC97-2A876F90AEAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

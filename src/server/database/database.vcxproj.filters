@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Work\BUILDS\Wiesiek\src\server\database\CMakeFiles\database.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\AdhocStatement.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseEnv.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseLoader.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseWorker.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseWorkerPool.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Field.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\MySQLConnection.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\MySQLPreparedStatement.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\MySQLThreading.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\PreparedStatement.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\QueryCallback.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\QueryHolder.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\QueryResult.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Transaction.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation\CharacterDatabase.cpp">
+      <Filter>Database\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation\LoginDatabase.cpp">
+      <Filter>Database\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation\WorldDatabase.cpp">
+      <Filter>Database\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Logging\AppenderDB.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Updater\DBUpdater.cpp">
+      <Filter>Updater</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Updater\UpdateFetcher.cpp">
+      <Filter>Updater</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\AdhocStatement.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseEnv.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseEnvFwd.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseLoader.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseWorker.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\DatabaseWorkerPool.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Field.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\MySQLConnection.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\MySQLHacks.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\MySQLPreparedStatement.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\MySQLThreading.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\MySQLWorkaround.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\PreparedStatement.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\QueryCallback.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\QueryHolder.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\QueryResult.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\SQLOperation.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Transaction.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation\CharacterDatabase.h">
+      <Filter>Database\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation\LoginDatabase.h">
+      <Filter>Database\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation\WorldDatabase.h">
+      <Filter>Database\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Logging\AppenderDB.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Updater\DBUpdater.h">
+      <Filter>Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\database\Updater\UpdateFetcher.h">
+      <Filter>Updater</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\database\CMakeFiles\database.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\database\CMakeFiles\database.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\database\CMakeFiles\database.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\database\CMakeFiles\database.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Wiesiek\TrinityCore\src\server\database\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Database">
+      <UniqueIdentifier>{A088DE58-9079-37A4-B3B4-649227F5446E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database\Implementation">
+      <UniqueIdentifier>{DAFF88DF-9A75-3235-A5E8-03A6402677AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{CBF739DF-9AC7-36E3-94A0-A9CA91FC65CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F9C7B270-CEED-3F8A-81CF-15965F08313B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761F9133-09E9-3759-BC97-2A876F90AEAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Updater">
+      <UniqueIdentifier>{7A2AC74F-A649-3468-A674-593CE136B21A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

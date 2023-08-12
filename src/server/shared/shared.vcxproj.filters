@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\SharedDefines.cpp" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\enuminfo_SharedDefines.cpp" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCDatabaseLoader.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCStore.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets\ByteBuffer.cpp">
+      <Filter>Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm\Realm.cpp">
+      <Filter>Realm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm\RealmList.cpp">
+      <Filter>Realm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets\SecretMgr.cpp">
+      <Filter>Secrets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Memory.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\SharedDefines.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCDatabaseLoader.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCEnums.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCStorageIterator.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCStore.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCStructure.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCfmt.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\FactoryHolder.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedList.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\ObjectRegistry.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\TypeList.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference\RefManager.h">
+      <Filter>Dynamic\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference\Reference.h">
+      <Filter>Dynamic\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking\AsyncAcceptor.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking\NetworkThread.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking\Socket.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking\SocketMgr.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets\ByteBuffer.h">
+      <Filter>Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm\Realm.h">
+      <Filter>Realm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm\RealmList.h">
+      <Filter>Realm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets\SecretMgr.h">
+      <Filter>Secrets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{D49570E7-4B29-3A94-A98F-2D0060B15D1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic">
+      <UniqueIdentifier>{72214329-F6C2-3367-8729-73DFC71CE2D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\LinkedReference">
+      <UniqueIdentifier>{5347F2F0-1341-3D91-AA63-EA79A1DE3BBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{1920CCE2-3D0C-3D5E-ADCB-0AA107EFA696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packets">
+      <UniqueIdentifier>{42846F7B-8D59-3B53-AA4B-29D07FC9E914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F9C7B270-CEED-3F8A-81CF-15965F08313B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realm">
+      <UniqueIdentifier>{9812EDFF-C6DC-3DA8-957A-0D208D951779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Secrets">
+      <UniqueIdentifier>{50A98761-225B-369E-9851-76528F067063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761F9133-09E9-3759-BC97-2A876F90AEAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

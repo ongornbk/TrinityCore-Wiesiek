@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Work\BUILDS\Wiesiek\src\server\authserver\CMakeFiles\authserver.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\Main.cpp" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\Authentication\AuthCodes.cpp">
+      <Filter>Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\Server\AuthSession.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\common\Platform\ServiceWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\resource.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\Authentication\AuthCodes.h">
+      <Filter>Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\Server\AuthSession.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\Server\AuthSocketMgr.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\common\Platform\ServiceWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\authserver\CMakeFiles\authserver.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\authserver\CMakeFiles\authserver.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\authserver\CMakeFiles\authserver.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\authserver\CMakeFiles\authserver.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\authserver\authserver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Authentication">
+      <UniqueIdentifier>{3D27FC2D-EFFF-3FB2-9D88-4F0046A5ED83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F5320C05-39C3-3F85-B307-83474D0B2635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F9C7B270-CEED-3F8A-81CF-15965F08313B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{1728FB03-A0EB-3861-BB9D-50966E2955F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761F9133-09E9-3759-BC97-2A876F90AEAF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

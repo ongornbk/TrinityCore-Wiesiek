@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36E55269-9BD0-3FF4-87B6-B10C3E96C84E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>shared</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Work\BUILDS\Wiesiek\src\server\shared\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shared.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Work\BUILDS\Wiesiek\src\server\shared\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shared.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Work\BUILDS\Wiesiek\src\server\shared\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shared.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Work\BUILDS\Wiesiek\src\server\shared\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shared.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Libraries/OpenSSL-Win64/include" /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Work/BUILDS/Wiesiek/src/server/shared/shared.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;NO_CORE_FUNCS;TRINITY_API_EXPORT_SHARED;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;TC_HAS_BROKEN_WSTRING_REGEX;FMT_LOCALE;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;NO_CORE_FUNCS;TRINITY_API_EXPORT_SHARED;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;TC_HAS_BROKEN_WSTRING_REGEX;FMT_LOCALE;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;C:\Libraries\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;C:\Libraries\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Libraries/OpenSSL-Win64/include" /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Work/BUILDS/Wiesiek/src/server/shared/shared.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;NO_CORE_FUNCS;TRINITY_API_EXPORT_SHARED;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;TC_HAS_BROKEN_WSTRING_REGEX;FMT_LOCALE;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;NO_CORE_FUNCS;TRINITY_API_EXPORT_SHARED;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;TC_HAS_BROKEN_WSTRING_REGEX;FMT_LOCALE;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;C:\Libraries\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;C:\Libraries\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Libraries/OpenSSL-Win64/include" /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Work/BUILDS/Wiesiek/src/server/shared/shared.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;NO_CORE_FUNCS;TRINITY_API_EXPORT_SHARED;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;TC_HAS_BROKEN_WSTRING_REGEX;FMT_LOCALE;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;NO_CORE_FUNCS;TRINITY_API_EXPORT_SHARED;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;TC_HAS_BROKEN_WSTRING_REGEX;FMT_LOCALE;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;C:\Libraries\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;C:\Libraries\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Libraries/OpenSSL-Win64/include" /bigobj /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Work/BUILDS/Wiesiek/src/server/shared/shared.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;NO_CORE_FUNCS;TRINITY_API_EXPORT_SHARED;_WIN64;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;TC_HAS_BROKEN_WSTRING_REGEX;FMT_LOCALE;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOMINMAX;NO_CORE_FUNCS;TRINITY_API_EXPORT_SHARED;_WIN64;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;BOOST_SERIALIZATION_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_SYSTEM_USE_UTF8;BOOST_BIND_NO_PLACEHOLDERS;TC_HAS_BROKEN_WSTRING_REGEX;FMT_LOCALE;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;C:\Libraries\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Work\Wiesiek\TrinityCore\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic;C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference;C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking;C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets;C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm;C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets;C:\Work\BUILDS\Wiesiek\src\server\shared;C:\Work\Wiesiek\TrinityCore\src\server\database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database;C:\Work\Wiesiek\TrinityCore\src\server\database\Database\Implementation;C:\Work\Wiesiek\TrinityCore\src\server\database\Logging;C:\Work\Wiesiek\TrinityCore\src\server\database\Updater;C:\Work\BUILDS\Wiesiek;C:\Work\Wiesiek\TrinityCore\src\common;C:\Work\Wiesiek\TrinityCore\src\common\Asio;C:\Work\Wiesiek\TrinityCore\src\common\Collision;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Management;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Maps;C:\Work\Wiesiek\TrinityCore\src\common\Collision\Models;C:\Work\Wiesiek\TrinityCore\src\common\Configuration;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography;C:\Work\Wiesiek\TrinityCore\src\common\Cryptography\Authentication;C:\Work\Wiesiek\TrinityCore\src\common\DataStores;C:\Work\Wiesiek\TrinityCore\src\common\Debugging;C:\Work\Wiesiek\TrinityCore\src\common\Encoding;C:\Work\Wiesiek\TrinityCore\src\common\Hacks;C:\Work\Wiesiek\TrinityCore\src\common\IPLocation;C:\Work\Wiesiek\TrinityCore\src\common\Logging;C:\Work\Wiesiek\TrinityCore\src\common\Metric;C:\Work\Wiesiek\TrinityCore\src\common\Platform;C:\Work\Wiesiek\TrinityCore\src\common\Threading;C:\Work\Wiesiek\TrinityCore\src\common\Utilities;C:\Work\Wiesiek\TrinityCore\dep\argon2;C:\Libraries\boost_1_73_0;C:\Work\Wiesiek\TrinityCore\dep\fmt\include;C:\Work\Wiesiek\TrinityCore\dep\g3dlite\include;C:\Work\Wiesiek\TrinityCore\dep\zlib;C:\Work\Wiesiek\TrinityCore\dep\recastnavigation\Detour\Include;C:\Work\Wiesiek\TrinityCore\dep\SFMT;C:\Work\Wiesiek\TrinityCore\dep\utf8cpp;C:\Work\Wiesiek\TrinityCore\dep\valgrind;C:\Libraries\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Work/Wiesiek/TrinityCore/src/server/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Work/Wiesiek/TrinityCore -BC:/Work/BUILDS/Wiesiek --check-stamp-file C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Work/Wiesiek/TrinityCore/src/server/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Work/Wiesiek/TrinityCore -BC:/Work/BUILDS/Wiesiek --check-stamp-file C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Work/Wiesiek/TrinityCore/src/server/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Work/Wiesiek/TrinityCore -BC:/Work/BUILDS/Wiesiek --check-stamp-file C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Work/Wiesiek/TrinityCore/src/server/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Work/Wiesiek/TrinityCore -BC:/Work/BUILDS/Wiesiek --check-stamp-file C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/shared.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/shared.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/shared.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/shared.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Memory.h" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\SharedDefines.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\SharedDefines.h" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\enuminfo_SharedDefines.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCDatabaseLoader.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCDatabaseLoader.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCEnums.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCStorageIterator.h" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCStore.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCStore.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCStructure.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\DataStores\DBCfmt.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\FactoryHolder.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedList.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\ObjectRegistry.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\TypeList.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference\RefManager.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Dynamic\LinkedReference\Reference.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking\AsyncAcceptor.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking\NetworkThread.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking\Socket.h" />
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Networking\SocketMgr.h" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets\ByteBuffer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Packets\ByteBuffer.h" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm\Realm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm\Realm.h" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm\RealmList.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Realm\RealmList.h" />
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets\SecretMgr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Work/BUILDS/Wiesiek/src/server/shared/CMakeFiles/shared.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\shared\Secrets\SecretMgr.h" />
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\MinSizeRel\cmake_pch.hxx" />
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\shared\CMakeFiles\shared.dir\RelWithDebInfo\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\ZERO_CHECK.vcxproj">
+      <Project>{694FA146-E7B6-3A64-9FC7-376D95DA909D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{CA7D5D8A-75B2-358B-AF61-A4245A2BDC37}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\dep\argon2\argon2.vcxproj">
+      <Project>{86B64EEF-1385-3257-9597-E45FE60503D2}</Project>
+      <Name>argon2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\src\common\common.vcxproj">
+      <Project>{13C3BDBD-6EB3-3367-8D85-6B9578971B40}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\src\server\database\database.vcxproj">
+      <Project>{455171C0-D698-3D96-AB3C-FF6E11D0EF0B}</Project>
+      <Name>database</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\dep\fmt\fmt.vcxproj">
+      <Project>{6CBB9122-D3F1-3FAA-943E-6ABDAFFD4BB7}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\dep\g3dlite\g3dlib.vcxproj">
+      <Project>{77628968-5E85-3B27-9C2F-C0C10C1EE5B7}</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\dep\SFMT\sfmt.vcxproj">
+      <Project>{AD1AB80A-6CAF-3165-AB4E-F67543250BA6}</Project>
+      <Name>sfmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Work\BUILDS\Wiesiek\dep\zlib\zlib.vcxproj">
+      <Project>{2D21755A-9DED-3B64-BEB5-5E8F50DAD42B}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

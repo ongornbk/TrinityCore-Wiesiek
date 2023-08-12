@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake
+C:/Work/Wiesiek/TrinityCore/cmake/macros/EnsureVersion.cmake
+C:/Work/Wiesiek/TrinityCore/cmake/macros/FindOpenSSL.cmake
+C:/Work/Wiesiek/TrinityCore/dep/openssl/CMakeLists.txt

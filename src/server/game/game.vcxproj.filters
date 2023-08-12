@@ -1,0 +1,1848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Work\BUILDS\Wiesiek\src\server\game\CMakeFiles\game.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CreatureAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CreatureAIRegistry.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CreatureAISelector.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\enuminfo_CreatureAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\CombatAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\GameObjectAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\GuardAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\PassiveAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\PetAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\ReactorAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\ScheduledChangeAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\TotemAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\UnitAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\PlayerAI\PlayerAI.cpp">
+      <Filter>AI\PlayerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedGossip.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\SmartScripts\SmartAI.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\SmartScripts\SmartScript.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Accounts\AccountMgr.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Accounts\RBAC.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Achievements\AchievementMgr.cpp">
+      <Filter>Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Addons\AddonMgr.cpp">
+      <Filter>Addons</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouse\AuctionHouseMgr.cpp">
+      <Filter>AuctionHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBot.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBotBuyer.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBotSeller.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouseBot\enuminfo_AuctionHouseBot.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlefield\Battlefield.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlefield\BattlefieldMgr.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Arena.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\ArenaTeam.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\ArenaTeamMgr.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Battleground.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\BattlegroundMgr.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\BattlegroundQueue.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\enuminfo_ArenaTeam.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Cache\CharacterCache.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Calendar\CalendarMgr.cpp">
+      <Filter>Calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Chat.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\HyperlinkTags.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Hyperlinks.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Channels\Channel.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Channels\ChannelMgr.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Channels\enuminfo_Channel.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommand.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandArgs.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandHelpers.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandTags.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Combat\CombatManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Combat\ThreatManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Conditions\ConditionMgr.cpp">
+      <Filter>Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Conditions\DisableMgr.cpp">
+      <Filter>Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DataStores\DBCStores.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DataStores\M2Stores.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFG.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGGroupData.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGMgr.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGPlayerData.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGQueue.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGScripts.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Corpse\Corpse.cpp">
+      <Filter>Entities\Corpse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\Creature.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\CreatureGroups.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\GossipDef.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\TemporarySummon.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\Trainer.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\enuminfo_CreatureData.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\DynamicObject\DynamicObject.cpp">
+      <Filter>Entities\DynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\GameObject\GameObject.cpp">
+      <Filter>Entities\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\Item.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\ItemTemplate.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\enuminfo_ItemDefines.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\Container\Bag.cpp">
+      <Filter>Entities\Item\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Object.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\ObjectGuid.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\ObjectPosSelector.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Position.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Updates\UpdateData.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Updates\UpdateFieldFlags.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Pet\Pet.cpp">
+      <Filter>Entities\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\CinematicMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\KillRewarder.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\Player.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\PlayerTaxi.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\SocialMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\TradeData.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Totem\Totem.cpp">
+      <Filter>Entities\Totem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Transport\Transport.cpp">
+      <Filter>Entities\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Unit\StatSystem.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Unit\Unit.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Unit\enuminfo_UnitDefines.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Vehicle\Vehicle.cpp">
+      <Filter>Entities\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Events\GameEventMgr.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Globals\ObjectAccessor.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Globals\ObjectMgr.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\GridStates.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\NGrid.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\ObjectGridLoader.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiers.cpp">
+      <Filter>Grids\Notifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Groups\Group.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Groups\GroupMgr.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Groups\GroupReference.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Guilds\Guild.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Guilds\GuildMgr.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\AddonHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\ArenaTeamHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\AuctionHouseHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\AuthHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\BankHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\BattleGroundHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\BattlefieldHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\CalendarHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\ChannelHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\CharacterHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\ChatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\CombatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\DuelHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\GroupHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\GuildHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\ItemHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\LFGHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\LootHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\MailHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\MiscHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\MovementHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\NPCHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\PetHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\PetitionsHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\QueryHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\QuestHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\ReferAFriendHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\SkillHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\SocialHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\SpellHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\TaxiHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\TicketHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\TradeHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\VehicleHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\VoiceChatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Instances\InstanceSaveMgr.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Instances\InstanceScript.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Instances\enuminfo_InstanceScript.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Loot\Loot.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Loot\LootItemStorage.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Loot\LootMgr.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Mails\Mail.cpp">
+      <Filter>Mails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\AreaBoundary.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\Map.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapInstanced.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapManager.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapReference.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapScripts.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapUpdater.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\TransportMgr.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\ZoneScript.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\enuminfo_SpawnData.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Miscellaneous\CommonHelpers.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Miscellaneous\CommonPredicates.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Motd\ServerMotd.cpp">
+      <Filter>Motd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\AbstractFollower.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MotionMaster.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementDefines.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerator.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementPacketSender.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\PathGenerator.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\enuminfo_MovementDefines.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\ChaseMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\FlightPathMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\FollowMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\FormationMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\GenericMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\SplineChainMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MoveSpline.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MoveSplineInit.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MovementPacketBuilder.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MovementUtil.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\Spline.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Waypoints\WaypointManager.cpp">
+      <Filter>Movement\Waypoints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvP.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Petitions\PetitionMgr.cpp">
+      <Filter>Petitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Pools\PoolMgr.cpp">
+      <Filter>Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Pools\QuestPools.cpp">
+      <Filter>Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Quests\QuestDef.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Quests\enuminfo_QuestDef.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Reputation\ReputationMgr.cpp">
+      <Filter>Reputation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Scripting\ScriptMgr.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Scripting\ScriptReloadMgr.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Scripting\ScriptSystem.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\GameClient.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packet.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\WorldSession.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\WorldSocket.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\WorldSocketMgr.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\BankPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\CharacterPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\ChatPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\CombatLogPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\CombatPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\GuildPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\LFGPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\MailPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\MiscPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\NPCPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\PacketUtilities.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\PetPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\QueryPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\QuestPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\SpellPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\SystemPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\TotemPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\WorldStatePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Protocol\Opcodes.cpp">
+      <Filter>Server\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Protocol\PacketLog.cpp">
+      <Filter>Server\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Skills\SkillDiscovery.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Skills\SkillExtraItems.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\Spell.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellEffects.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellHistory.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellInfo.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellMgr.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellScript.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\Auras\SpellAuraEffects.cpp">
+      <Filter>Spells\Auras</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\Auras\SpellAuras.cpp">
+      <Filter>Spells\Auras</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Storages\WhoListStorage.cpp">
+      <Filter>Storages</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Texts\ChatTextBuilder.cpp">
+      <Filter>Texts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Texts\CreatureTextMgr.cpp">
+      <Filter>Texts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Tickets\TicketMgr.cpp">
+      <Filter>Tickets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Time\GameTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Time\UpdateTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Tools\CharacterDatabaseCleaner.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Tools\PlayerDump.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\Warden.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\WardenCheckMgr.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\WardenMac.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\WardenWin.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\enuminfo_WardenCheckMgr.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Weather\Weather.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Weather\WeatherMgr.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Work\Wiesiek\TrinityCore\src\server\game\World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\AIException.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CreatureAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CreatureAIFactory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CreatureAIImpl.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CreatureAIRegistry.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CreatureAISelector.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\GameObjectAIFactory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\SelectableAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\CombatAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\GameObjectAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\GuardAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\PassiveAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\PetAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\ReactorAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\ScheduledChangeAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\TotemAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\CoreAI\UnitAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\PlayerAI\PlayerAI.h">
+      <Filter>AI\PlayerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedCreature.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedGossip.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\SmartScripts\SmartAI.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\SmartScripts\SmartScript.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AI\SmartScripts\SmartScriptMgr.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Accounts\AccountMgr.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Accounts\RBAC.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Achievements\AchievementMgr.h">
+      <Filter>Achievements</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Addons\AddonMgr.h">
+      <Filter>Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouse\AuctionHouseMgr.h">
+      <Filter>AuctionHouse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBot.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBotBuyer.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBotSeller.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlefield\Battlefield.h">
+      <Filter>Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlefield\BattlefieldMgr.h">
+      <Filter>Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Arena.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\ArenaScore.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\ArenaTeam.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\ArenaTeamMgr.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Battleground.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\BattlegroundMgr.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\BattlegroundQueue.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\BattlegroundScore.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundAB.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundAV.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundBE.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundDS.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundEY.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundIC.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundNA.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundRL.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundRV.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundSA.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Battlegrounds\Zones\BattlegroundWS.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Cache\CharacterCache.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Calendar\CalendarMgr.h">
+      <Filter>Calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Chat.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Hyperlinks.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Channels\Channel.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Channels\ChannelAppenders.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\Channels\ChannelMgr.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommand.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandArgs.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandHelpers.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandTags.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Combat\CombatManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Combat\ThreatManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Conditions\ConditionMgr.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Conditions\DisableMgr.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DataStores\DBCStores.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DataStores\M2Stores.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DataStores\M2Structure.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFG.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGGroupData.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGMgr.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGPlayerData.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGQueue.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\DungeonFinding\LFGScripts.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Corpse\Corpse.h">
+      <Filter>Entities\Corpse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\Creature.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\CreatureData.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\CreatureGroups.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\GossipDef.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\TemporarySummon.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Creature\Trainer.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\DynamicObject\DynamicObject.h">
+      <Filter>Entities\DynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\GameObject\GameObject.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\GameObject\GameObjectData.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\Item.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\ItemDefines.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\ItemEnchantmentMgr.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\ItemTemplate.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Item\Container\Bag.h">
+      <Filter>Entities\Item\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\G3DPosition.hpp">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\GridObject.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\MovementInfo.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Object.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\ObjectDefines.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\ObjectGuid.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\ObjectPosSelector.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Position.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Updates\UpdateData.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Updates\UpdateFieldFlags.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Updates\UpdateFields.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Object\Updates\UpdateMask.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Pet\Pet.h">
+      <Filter>Entities\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Pet\PetDefines.h">
+      <Filter>Entities\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\CinematicMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\EquipmentSet.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\KillRewarder.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\Player.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\PlayerTaxi.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\SocialMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Player\TradeData.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Totem\Totem.h">
+      <Filter>Entities\Totem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Transport\Transport.h">
+      <Filter>Entities\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Unit\Unit.h">
+      <Filter>Entities\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Unit\UnitDefines.h">
+      <Filter>Entities\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Vehicle\Vehicle.h">
+      <Filter>Entities\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Entities\Vehicle\VehicleDefines.h">
+      <Filter>Entities\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Events\GameEventMgr.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Globals\ObjectAccessor.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Globals\ObjectMgr.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Grid.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\GridDefines.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\GridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\GridRefManager.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\GridReference.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\GridStates.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\NGrid.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\ObjectGridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Cells\Cell.h">
+      <Filter>Grids\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Cells\CellImpl.h">
+      <Filter>Grids\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Dynamic\TypeContainer.h">
+      <Filter>Grids\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Dynamic\TypeContainerFunctions.h">
+      <Filter>Grids\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Dynamic\TypeContainerVisitor.h">
+      <Filter>Grids\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiers.h">
+      <Filter>Grids\Notifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiersImpl.h">
+      <Filter>Grids\Notifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Groups\Group.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Groups\GroupMgr.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Groups\GroupRefManager.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Groups\GroupReference.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Guilds\Guild.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Guilds\GuildMgr.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\AddonHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Handlers\NPCHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Instances\InstanceSaveMgr.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Instances\InstanceScript.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Loot\Loot.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Loot\LootItemStorage.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Loot\LootMgr.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Mails\Mail.h">
+      <Filter>Mails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\AreaBoundary.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\Map.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapInstanced.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapManager.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapObject.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapRefManager.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapReference.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\MapUpdater.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\SpawnData.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\TransportMgr.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Maps\ZoneScript.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Miscellaneous\CommonHelpers.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Miscellaneous\CommonPredicates.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Miscellaneous\Formulas.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Miscellaneous\Language.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Motd\ServerMotd.h">
+      <Filter>Motd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\AbstractFollower.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MotionMaster.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementDefines.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerator.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementPacketSender.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\PathGenerator.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\ChaseMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\FlightPathMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\FollowMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\FormationMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\GenericMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\PathMovementBase.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\SplineChainMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MoveSpline.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MoveSplineFlag.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MoveSplineInit.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MoveSplineInitArgs.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MovementPacketBuilder.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\MovementTypedefs.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\Spline.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\SplineChain.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Spline\SplineImpl.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Waypoints\WaypointDefines.h">
+      <Filter>Movement\Waypoints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Movement\Waypoints\WaypointManager.h">
+      <Filter>Movement\Waypoints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvP.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvPMgr.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Petitions\PetitionMgr.h">
+      <Filter>Petitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Pools\PoolMgr.h">
+      <Filter>Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Pools\QuestPools.h">
+      <Filter>Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Quests\QuestDef.h">
+      <Filter>Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Reputation\ReputationMgr.h">
+      <Filter>Reputation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Scripting\ScriptMgr.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Scripting\ScriptReloadMgr.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Scripting\ScriptSystem.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\GameClient.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packet.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\WorldPacket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\WorldSession.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\WorldSocket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\WorldSocketMgr.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\AllPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\BankPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\CharacterPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\ChatPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\CombatLogPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\CombatPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\GuildPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\LFGPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\MailPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\MiscPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\NPCPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\PacketUtilities.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\PetPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\QueryPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\QuestPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\SpellPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\SystemPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\TotemPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Packets\WorldStatePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Protocol\Opcodes.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Protocol\PacketLog.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Server\Protocol\ServerPktHeader.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Skills\SkillDiscovery.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Skills\SkillExtraItems.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\Spell.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellDefines.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellHistory.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellInfo.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellMgr.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\SpellScript.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\Auras\SpellAuraDefines.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\Auras\SpellAuraEffects.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Spells\Auras\SpellAuras.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Storages\WhoListStorage.h">
+      <Filter>Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Texts\ChatTextBuilder.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Texts\CreatureTextMgr.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Texts\CreatureTextMgrImpl.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Tickets\TicketMgr.h">
+      <Filter>Tickets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Time\GameTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Time\UpdateTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Tools\CharacterDatabaseCleaner.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Tools\PlayerDump.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\Warden.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\WardenCheckMgr.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\WardenMac.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\WardenWin.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\Modules\WardenModuleMac.h">
+      <Filter>Warden\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Warden\Modules\WardenModuleWin.h">
+      <Filter>Warden\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Weather\Weather.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\Weather\WeatherMgr.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\Wiesiek\TrinityCore\src\server\game\World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\game\CMakeFiles\game.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\game\CMakeFiles\game.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\game\CMakeFiles\game.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Work\BUILDS\Wiesiek\src\server\game\CMakeFiles\game.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\Wiesiek\TrinityCore\src\server\game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AI">
+      <UniqueIdentifier>{8E0BB280-0D9D-37D7-B716-1BA66A3A6F74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\CoreAI">
+      <UniqueIdentifier>{D6C38A77-0119-32BF-9222-8A3A52AD47F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\PlayerAI">
+      <UniqueIdentifier>{060D513F-8F9B-3A2A-8305-1953BAE62EB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptedAI">
+      <UniqueIdentifier>{4983AE61-54ED-39D6-BA2F-4AB8C95E9403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\SmartScripts">
+      <UniqueIdentifier>{03D13B3A-6886-3B16-9ACF-AFA033203418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Accounts">
+      <UniqueIdentifier>{F698EA3D-56D9-3817-8ECF-1F95C881397E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Achievements">
+      <UniqueIdentifier>{24B19D93-E031-393C-A4B2-32F59D3581F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons">
+      <UniqueIdentifier>{6ED88B0B-F257-3DEC-8C6D-3C1EE7603742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouse">
+      <UniqueIdentifier>{2B13430F-55BE-39AF-9834-629FCEC9DCF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouseBot">
+      <UniqueIdentifier>{028F30C3-3F7C-3FCB-A1D8-75B1E32FC747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlefield">
+      <UniqueIdentifier>{CE4DC0EC-07E3-3AC0-92B4-E8983D9E22A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlegrounds">
+      <UniqueIdentifier>{00C5B027-7E76-3C43-B96B-7E3309852138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlegrounds\Zones">
+      <UniqueIdentifier>{2BAC9018-A9F3-3EAF-AB80-7C1A8B8D68F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{597B11F7-E6C1-3D2C-BC19-1C5F094742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calendar">
+      <UniqueIdentifier>{A1488C58-78FE-3E7C-9566-2F7CD42F8722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat">
+      <UniqueIdentifier>{CCBA7343-D87D-3402-A376-F0C47DCA2842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat\Channels">
+      <UniqueIdentifier>{2E7F8D2C-C6EE-300F-90CF-CB6D68768490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat\ChatCommands">
+      <UniqueIdentifier>{E88DAEBA-F552-39B3-B2EA-3F643CC149EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Combat">
+      <UniqueIdentifier>{D2222DE4-8178-305B-AE98-C80CBC46E99A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conditions">
+      <UniqueIdentifier>{175BC594-4772-3AA2-851F-74B4B55728F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{D49570E7-4B29-3A94-A98F-2D0060B15D1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DungeonFinding">
+      <UniqueIdentifier>{8075654D-CBA0-37D6-A6D9-3EE44520A806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{3F664171-D33E-3ED9-BD65-6FCF6CC71F34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Corpse">
+      <UniqueIdentifier>{C0C6B7EA-8102-3F01-8C27-3DE4E3C2887D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Creature">
+      <UniqueIdentifier>{8430446D-86EC-3EE4-86D3-07893A40DB6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\DynamicObject">
+      <UniqueIdentifier>{16D72089-010B-3F4C-AD1B-5C56177E7774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\GameObject">
+      <UniqueIdentifier>{ABAB11CE-12E7-30C2-8B03-BC9670B94BB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item">
+      <UniqueIdentifier>{5823B619-C0C5-30AF-8190-FCA6269229EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item\Container">
+      <UniqueIdentifier>{E5061EDD-B28E-328A-864E-3E88F1A20F4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Object">
+      <UniqueIdentifier>{19BE6F98-3245-38A0-B1D1-6FC4FB1B28E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Object\Updates">
+      <UniqueIdentifier>{2223D605-3237-3B48-95C1-F0E5D52F354C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Pet">
+      <UniqueIdentifier>{45FEC64D-2939-314C-8CB0-CB20842D1297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Player">
+      <UniqueIdentifier>{41DA0563-01E2-3A8C-B78C-1D5F68FA8264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Totem">
+      <UniqueIdentifier>{C5D6D74E-0619-34C7-9443-3192FD4FF488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Transport">
+      <UniqueIdentifier>{1333716A-2AEE-34D6-AD8E-A80F69A8D7B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Unit">
+      <UniqueIdentifier>{0419ADFF-C3BB-3B74-AB9B-5D6C22724DDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Vehicle">
+      <UniqueIdentifier>{AD0C6CB0-E83C-3D78-A9F4-F8DA6DA69E2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{8CED2DDE-16AC-3934-A694-146D3DAD1A6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{85D001B9-CBE4-3357-8127-C9BD9F9B32D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids">
+      <UniqueIdentifier>{889812E4-A968-3424-AA24-7FD33946C4B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Cells">
+      <UniqueIdentifier>{7F3B5AF6-1116-314B-AE58-9B2C7F7758B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Dynamic">
+      <UniqueIdentifier>{BCC4B5E9-07FD-3E64-9BFA-8638F71E8181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Notifiers">
+      <UniqueIdentifier>{960BA50E-322B-34CF-AF32-7DA4D5641667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Groups">
+      <UniqueIdentifier>{219070C2-A8AD-36D3-A8C7-FD6EE762B2EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guilds">
+      <UniqueIdentifier>{48414B5A-1D82-3E15-BD5B-08FDA5485A17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handlers">
+      <UniqueIdentifier>{3DDE904A-3606-3E3D-9DE7-5A6FE3B23DD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instances">
+      <UniqueIdentifier>{FC5BC400-C2F1-35F2-BC0A-43B7FABD9193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loot">
+      <UniqueIdentifier>{C9DE3D44-F4E2-3F84-B3F7-D50F1249324C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mails">
+      <UniqueIdentifier>{1F216F90-7320-3F0F-B0DA-DCEB7F8FF329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{2CB14727-2BC2-3C0D-88F6-6406D321CD65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{6D72B05B-7465-35F9-A693-7A0DCE5DEA00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Motd">
+      <UniqueIdentifier>{C09A9161-591E-34B8-BC8C-11E03F50CB62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement">
+      <UniqueIdentifier>{7C1D005B-6790-3296-99FB-16C1B8531589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\MovementGenerators">
+      <UniqueIdentifier>{413A950A-E7C2-3A9B-AA97-6873E332448E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\Spline">
+      <UniqueIdentifier>{FE0FD9FC-A781-3D16-B35E-5457352F95D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\Waypoints">
+      <UniqueIdentifier>{AB81BE04-269B-30B9-903D-E22C8800A302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutdoorPvP">
+      <UniqueIdentifier>{FE2300B9-AA0B-3700-8010-8C720D455098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Petitions">
+      <UniqueIdentifier>{999CCB62-EE2E-3553-B0EF-7C288DFABDBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools">
+      <UniqueIdentifier>{C85D30AD-1502-32FB-A8F7-E0BA7DABD198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F9C7B270-CEED-3F8A-81CF-15965F08313B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quests">
+      <UniqueIdentifier>{E9883D45-0AE9-3835-ABE2-F823D4C76D72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reputation">
+      <UniqueIdentifier>{D8D5E376-6F99-348F-85F5-37EBD4F84CFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{DA1193DC-DF19-34F3-86E6-47CF1E098EB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{1728FB03-A0EB-3861-BB9D-50966E2955F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Packets">
+      <UniqueIdentifier>{0F18B308-F052-30A5-9FC9-3A13D71F1EE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Protocol">
+      <UniqueIdentifier>{C9028A6A-83C6-374C-842D-D40926B8C685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skills">
+      <UniqueIdentifier>{0F6CD40F-F44F-323E-8A04-6D7FDDC9FD8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{761F9133-09E9-3759-BC97-2A876F90AEAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells">
+      <UniqueIdentifier>{87E92DCE-ECB7-3D16-B3C4-B61E878A5D3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells\Auras">
+      <UniqueIdentifier>{82B143BD-A199-35C8-87E7-49DF782C8596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storages">
+      <UniqueIdentifier>{6ED3B9EE-F80C-3AD3-903F-BEB6A6E90E64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texts">
+      <UniqueIdentifier>{0C908BD9-91BE-3755-912D-37DD701940BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tickets">
+      <UniqueIdentifier>{FA78942D-F6CB-3636-AE37-A83B6AD62936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{0A69A9FE-59E4-34A6-8D91-1CC753016152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{1C85DAB2-F0A3-32F9-8D8B-AA84C95B8606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warden">
+      <UniqueIdentifier>{4BA9A2C2-4D91-387F-9C4D-F621F0F5420E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warden\Modules">
+      <UniqueIdentifier>{84A42408-7B01-3D20-92D6-65EADC1B4CCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weather">
+      <UniqueIdentifier>{FA6F46CE-3048-3838-8E09-5076E82B1C26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{77A5F159-1578-392F-B637-FB3E8DAEDAA8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
